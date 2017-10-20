@@ -1,0 +1,194 @@
+/* daremos formato al título*/
+
+h1 {
+  text-align: center;
+  color: rgba(115, 6, 101, 0.64);
+}
+.center {
+  text-align:right;
+}
+
+p {
+  font-size: 18px;
+  text-decoration:underline;
+  color:rgba(7, 70, 40, 0.79);
+
+}
+.justi {
+  text-align: justify;
+}
+
+/* index: Usando la propiedad static y la class a*/
+ .a #box_1 {
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+ .a #box_2 {
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+ .a #box_3 {
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/* Usando la propiedad relative*/
+ .b #box_1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+ .b #box_2 {
+	position: relative;
+  left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+ .b #box_3 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/* introduciendo box_2 en en box_1 */
+.c #box_1 {
+ position: relative;
+ width: 200px;
+ height: 200px;
+ background: #ee3e64;
+}
+
+.c #box_2 {
+ position: relative;
+ left: 200px;
+ width: 200px;
+ height: 200px;
+ background: #44accf;
+}
+
+.c #box_3 {
+ position: relative;
+ width: 200px;
+ height: 200px;
+ background: #b7d84b;
+}
+/*index1: Usando la propiedad absolute*/
+
+.d #box_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+.d #box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+.d #box_3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+.d #box_4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+/*index2:  creando coordenadas para elementos secundarios */
+#box_a {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	background: red;
+}
+#box_b {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	background: white;
+}
+/* index3: creando diseño de columnas */
+.g #box_1 {
+	position: absolute;
+	top: 0;
+	right: 20%;
+	bottom: 0;
+	left: 0;
+	background: #ee3e64;
+}
+
+.g #box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 80%;
+	background: #b7d84b;
+}
+/* index4: creando diseño de columnas distinta */
+ .h #box_1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+  .h #box_2 {
+	position: absolute;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+/* index5: Box_2 mateniendo posicion */
+
+.h3 #box_1 {
+ width: 200px;
+ height: 200px;
+ background: #ee3e64;
+ }
+
+.h3 #box_2 {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+/* index6: trabajando con fixed */
+.i #box_2 {
+  background: rgb(213, 12, 93);
+  text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  height: 30px;
+}
