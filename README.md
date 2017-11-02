@@ -1,5 +1,5 @@
 # **Positioning 101**
-Si eres un desarrollador front-end o un diseñador al que le gusta codificar, los diseños basados ​​en CSS son el núcleo de tu trabajo, esto te sorprendera. para ello debemos saber quien desarrollo estas actividades de posicionamiento.  
+Si eres un desarrollador front-end o un diseñador al que le gusta codificar, los diseños basados ​​en CSS son el núcleo de tu trabajo, esto te sorprenderá. para ello debemos saber quien desarrollo estas actividades de posicionamiento.  
 Noah Stokes es diseñador web, desarrollador y socio / cofundador de Bold , un estudio web. Leer más [aquí](https://alistapart.com/author/nstokes)
 
 ## Objetivos

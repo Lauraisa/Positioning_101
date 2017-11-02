@@ -1,3 +1,19 @@
+
+/*Formato al index.html */
+li {
+	list-style: none;
+}
+ ul a  {
+	font-size: 2rem;
+	line-height: 5rem; 
+	text-decoration: none;
+	color: black;
+}
+a:hover  {
+	color: purple;
+}
+
+
 /* daremos formato al título*/
 
 h1 {
@@ -181,14 +197,70 @@ p {
 	height: 200px;
 	background: #44accf;
 }
-
+/* Práctica final  j*/
 /* index6: trabajando con fixed */
-.i #box_2 {
-  background: rgb(213, 12, 93);
-  text-align: center;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-  height: 30px;
+ #box_2 {
+    background: #F36283;
+    text-align: center;
+	height: 30px;
 }
+
+.body6 {
+	margin: 0;
+	background: #44ACCF;
+}
+#body {
+	width: 55rem;
+    margin: 0 auto;
+}
+#conteiner {
+	background: #B7D84B;
+	height: 3rem;
+	margin-top: 0;
+	
+}
+.j  {
+   display: block;
+   float: left;
+   border-right: 1px solid #91ab3b;
+   color: white;
+   font-size:1.2rem;
+   padding: 0 20px;
+   height: 3rem;
+   text-decoration: none;
+   line-height: 3rem;
+}
+.j:hover {
+	background: #91ab3b;
+}
+#text1 {
+	background: white;
+	margin: 0;
+	position: relative;
+}
+.justi {
+	
+	padding-top: 1rem;
+	margin-left: 4rem;
+	text-align: justify;
+	width: 70%;
+}
+.justi1 {
+	width: 25%;
+	margin: 2rem;
+	padding: 1rem;
+	text-align: justify;
+	position: absolute;
+	background: #FA8366;
+	font-size: 10px;
+	top: 6rem;
+	left: 45rem;
+	bottom: 30rem;
+	border-top: 6px solid #F95B34;
+}
+#lorem {
+	font-size: 14px;
+	color: white;
+}
+
+	
